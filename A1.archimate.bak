@@ -33,9 +33,7 @@
     <element xsi:type="archimate:ApplicationInterface" name="IN-SCM" id="id-c3d896dc9bf5455a871fac232148f97f"/>
     <element xsi:type="archimate:ApplicationInterface" name="UI-SCM" id="id-555bdaf191ac4f04827ff8dd842d1502"/>
   </folder>
-  <folder name="Technology &amp; Physical" id="id-089584dd6e3b45a0a1b4a3fc4fafc2b3" type="technology">
-    <element xsi:type="archimate:Artifact" name="Artifact" id="id-86a7e6247ba444db98edfa4c3d37e8f6"/>
-  </folder>
+  <folder name="Technology &amp; Physical" id="id-089584dd6e3b45a0a1b4a3fc4fafc2b3" type="technology"/>
   <folder name="Motivation" id="id-cfd648402f7d41a88ab09bb4ee6bcb7d" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="id-cd4d395737424b32a6f4db5f89c13eab" type="implementation_migration"/>
   <folder name="Other" id="id-2c711c9c282843788d5b784f3b83c696" type="other"/>
