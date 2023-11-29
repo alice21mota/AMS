@@ -89,23 +89,17 @@
     <element xsi:type="archimate:ApplicationInterface" name="OUT-SCM" id="id-f22042af72b448eeb8714d680f224078"/>
     <element xsi:type="archimate:ApplicationComponent" name="PREDICT" id="id-2034eb217c454694beb7137096c71986"/>
     <element xsi:type="archimate:ApplicationInterface" name="PRE-SCM" id="id-f5339e23d70e4c93a3245abfd5bb7064"/>
-    <element xsi:type="archimate:ApplicationCollaboration" id="id-47cd3c6cfda34cb6a0b007893c982e64"/>
     <element xsi:type="archimate:DataObject" name="Catálogo" id="id-cd11ece897ac4fa7a1ff9d8d7dc59c2e"/>
-    <element xsi:type="archimate:ApplicationFunction" name="Gerir o ciclo de vida das encomendas a fornecedores e dos artigos nas lojas" id="id-13ab105e90784f4d95e3c5b251cf60c3"/>
     <element xsi:type="archimate:ApplicationProcess" name="Gestão dos Artigos em Lojas" id="id-127d60a311554995a107d587ae05c33d"/>
     <element xsi:type="archimate:ApplicationEvent" name="Submissão de pedido para geração de encomendas" id="id-c3befdaa68334b90b14271c5b6d36bab"/>
-    <element xsi:type="archimate:ApplicationEvent" id="id-44dc8901b61946468c35ce176a2be2ac"/>
     <element xsi:type="archimate:ApplicationComponent" name="ROUTE" id="id-534ea28f4d3f419caebe560e691617be"/>
-    <element xsi:type="archimate:ApplicationInterface" name="Application Interface" id="id-e417ccd216604ae4bf6b11b78f14bd8a"/>
     <element xsi:type="archimate:ApplicationComponent" name="SCM-PDA" id="id-0425afaf3c6b455b8e0fc18b80077720"/>
     <element xsi:type="archimate:ApplicationService" name="Assinar Mensagens, Esperar que sejam recebidas, e confirmar a receção" id="id-e367553d9ff8402ca7091db7fc05f9c2"/>
-    <element xsi:type="archimate:ApplicationFunction" id="id-751df445821241969594815eea0dc33a"/>
     <element xsi:type="archimate:DataObject" name="Documentos em Formato PDF" id="id-9c8f55c44b184d38b2b6e8173b4b260a"/>
     <element xsi:type="archimate:ApplicationInteraction" name="Registar e das Acesso à informação necesária sobr eo ciclo de vida dos artigos para venda" id="id-60f3c40e1c734c06ab86083cb73ba548"/>
     <element xsi:type="archimate:ApplicationService" name="Rejeitar e Informar o utilizador de documentos de candidatura mal estruturados" id="id-0be3ba3228394e51a6d7b942e6839e4a"/>
     <element xsi:type="archimate:ApplicationService" name="Desempenhar papel da C-MNG " id="id-af7058ccdcf94d558d316830e49946a9"/>
     <element xsi:type="archimate:DataObject" name="Submissão de Documentos de candidato a fornecedor" id="id-6036de318204462db7f1ab07ade97375"/>
-    <element xsi:type="archimate:ApplicationService" name="Gerir fornecedores" id="id-2e52d223ff3b4484bcc1aabbe05eed54"/>
     <element xsi:type="archimate:DataObject" name="Catálogo de oferta de tipos de artigos" id="id-b7ca43ae2d9f45e6bff2e6acab7ee8cc"/>
     <element xsi:type="archimate:ApplicationService" name="Gerir catálogo de artigos" id="id-b10de056ba6144e587aa75d65ab401b5"/>
     <element xsi:type="archimate:ApplicationInteraction" name="Gerir o ciclo de vida das encomendas a fornecedores e dos artigos nas lojas" id="id-8ade1d4e950241c383a4a12ba75983b3"/>
@@ -186,7 +180,6 @@
     <element xsi:type="archimate:ServingRelationship" id="id-d01a98f63bbc4646bd6b4cb7ad738365" source="id-f3a79041b9ea469c92435fe83d6e97a4" target="id-2034eb217c454694beb7137096c71986"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-33b1d869f6cd4397a49cb35ff204b03b" source="id-bbd3efa97fc441168a0f7efc05e9d0e9" target="id-f5339e23d70e4c93a3245abfd5bb7064"/>
     <element xsi:type="archimate:ServingRelationship" id="id-5ea4cb34a755400f834ffb91554720f1" source="id-2034eb217c454694beb7137096c71986" target="id-f5339e23d70e4c93a3245abfd5bb7064"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-655e4cff84f44fda9b4f147e0322be1e" source="id-bbd3efa97fc441168a0f7efc05e9d0e9" target="id-13ab105e90784f4d95e3c5b251cf60c3"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-8551729e41df4bf889ee5d18efc02529" source="id-534ea28f4d3f419caebe560e691617be" target="id-8611ca7d94274f1081c71c796d552baa"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-5a8bf4824115459ba49196134a28aaa6" source="id-2034eb217c454694beb7137096c71986" target="id-f5339e23d70e4c93a3245abfd5bb7064"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-f77bcceabd2048a8878d59ad06cc11a5" source="id-5d6ee093502b4390ac420d50f26fba0b" target="id-438956700e1a4d95bd6f8574e312cabb"/>
@@ -626,27 +619,27 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-79c77f193d914aaa94d6789b34745760" source="id-a7fc141e9773444cb0a31020f3ba6001" target="id-71c4b61be7014e258797159a37c230cf" archimateRelationship="id-5c0c8805681142f29fef181db33f703a"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f86dade4908c4ead9e71571ef004c857" archimateElement="id-bccab3322ca94937b9da1d809eb7b060">
-        <bounds x="-15" y="546" width="120" height="55"/>
+        <bounds x="1374" y="831" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-51d5369d5b3846a29cc8d068d8debba2" source="id-f86dade4908c4ead9e71571ef004c857" target="id-f544f51f0da342c3a26f3d052c24dab4" archimateRelationship="id-289395e8cfe041ed86ab8cb6f1b3d35e"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-725f109d292d41228cee488021f28ec6" source="id-f86dade4908c4ead9e71571ef004c857" target="id-5d38dd0d0f604d6c999fa26c515b8efb" archimateRelationship="id-37af14b8be1c4d76b51a96ed4a972f4f"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d40c356875ac4b5f986532d6ad054547" targetConnections="id-dcfa0443352d454c8fd198f7b7f96d0e" archimateElement="id-d9129339189c4f55a8023547baf305a3">
-        <bounds x="-98" y="830" width="138" height="58"/>
+        <bounds x="1291" y="1115" width="138" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-52ba04119d1f4182b2f665586941f077" source="id-d40c356875ac4b5f986532d6ad054547" target="id-60323b885828464eb5cfb66d9f4812fb" archimateRelationship="id-01ce4e90cc3948de8a56f9aca68c37ed"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-60323b885828464eb5cfb66d9f4812fb" targetConnections="id-52ba04119d1f4182b2f665586941f077" archimateElement="id-e6117d0acaaf4695ba916707d140d1ea">
-        <bounds x="104" y="840" width="150" height="38"/>
+        <bounds x="1493" y="1125" width="150" height="38"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-3a871f29df5d4790831a53592085f040" archimateElement="id-c5bc2f1461954382b923225d07c327b1">
-        <bounds x="158" y="591" width="120" height="55"/>
+        <bounds x="1547" y="876" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6c7b4e1d659540879457ed65e4e11957" source="id-3a871f29df5d4790831a53592085f040" target="id-5d38dd0d0f604d6c999fa26c515b8efb" archimateRelationship="id-6d42f58f09bb47bba20a459730c37089"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f544f51f0da342c3a26f3d052c24dab4" targetConnections="id-51d5369d5b3846a29cc8d068d8debba2" archimateElement="id-3c8649331961447082102a146d9e218f">
-        <bounds x="-102" y="708" width="142" height="61"/>
+        <bounds x="1287" y="993" width="142" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-dcfa0443352d454c8fd198f7b7f96d0e" source="id-f544f51f0da342c3a26f3d052c24dab4" target="id-d40c356875ac4b5f986532d6ad054547" archimateRelationship="id-109fb5e464634ce6984d8dab2fe46db4"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5d38dd0d0f604d6c999fa26c515b8efb" targetConnections="id-6c7b4e1d659540879457ed65e4e11957 id-725f109d292d41228cee488021f28ec6" archimateElement="id-05f68ec7d7c948fbad09e62b6db3e010">
-        <bounds x="89" y="698" width="120" height="58"/>
+        <bounds x="1478" y="983" width="120" height="58"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-511628f9854843ab96cb0d8281236b2a" targetConnections="id-de7bc93ef8724f1ba400bad776d0f9c5 id-2c281503180b491e8c3271254697b60f" archimateElement="id-b7ca43ae2d9f45e6bff2e6acab7ee8cc">
         <bounds x="1596" y="1416" width="133" height="55"/>
