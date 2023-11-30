@@ -9,6 +9,7 @@
 
 - fornecedores & **operadores de transporte** (forum)
 
+
 ## A2
 
 - Ligação do PICKTRU ao serviço do RUN-SCM
@@ -20,9 +21,20 @@
 - Coordenador UFC liga a alguma cena?
 
 
-
 ## P1
 
 - Linha 57 é funcionário operacional ou pode ser o coordenador também?
   
 - Enviar mensagem de alteração do estado do Fornecedor -> task service ou message (send)
+
+- Fornecedor ser notificado
+
+
+## P2 
+
+- Como representar o SCM
+- Como começar o coordenador
+- Eventos paralelos para notificar o coordenador de loja e o operador de transporte
+- como representar quando não recebemos a encomenda
+- Como representar que a encomenda foi aceite
+- Como representar que todas as encomendas foram arrumadas -> não há o multiple
