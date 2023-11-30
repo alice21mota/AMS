@@ -42,7 +42,7 @@
     - Não representar
 - [ ] Como começar o coordenador
 - [ ] Eventos paralelos para notificar o coordenador de loja e o operador de transporte (linha 140)
-- [ ] Condicional no recebimento da encomenda 
+- [ ] Condicional no recebimento da encomenda --> passei para catch
 - [ ] Confirmar recessão da encomenda (linha 145)
 - [X] Como representar quando não recebemos a encomenda
   - Podemos ser nós de escolher como preferimos
@@ -51,6 +51,6 @@
 - [X] Como representar que todas as encomendas foram arrumadas -> não há o multiple
   - Gateway multipla que pergunta se já todas as lojas enviaram mensagem
 
-TODO:
+### TODO:
 - Não usar 'enviar', 'submeter', etc nas tasks de envio
 - Pôr no relatótio as cenas do SCM do P2 esão ocultadas -> sempre que se altera o estado do fornecedor, por exemplo, ele é suspenso, é efetuado um registo do SCM
