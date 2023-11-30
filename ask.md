@@ -32,8 +32,8 @@
 - [X] Task service vs message (send)
   - Tem de ser task porque há o processo de **criar a mensagem**
 - [X] Fornecedor ser notificado
-  - Adicionar no relatório uma frase que destaque que sempre que há alterações no SCM, ele próprio notifica os fornecedores
-  - TODO: alterar o estado de rejeito
+  - TODO: Adicionar no relatório uma frase que destaque que sempre que há alterações no SCM, ele próprio notifica os fornecedores
+  - alterar o estado de rejeito
 
 
 ## P2 
