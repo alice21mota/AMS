@@ -41,8 +41,16 @@
 - [X] Como representar o SCM
     - Não representar
 - [ ] Como começar o coordenador
-- [ ] Eventos paralelos para notificar o coordenador de loja e o operador de transporte
-- [ ] como representar quando não recebemos a encomenda
-- [ ] Como representar que a encomenda foi aceite
+- [ ] Eventos paralelos para notificar o coordenador de loja e o operador de transporte (linha 140)
+- [ ] Condicional no recebimento da encomenda 
+- [ ] Confirmar recessão da encomenda (linha 145)
+- [X] Como representar quando não recebemos a encomenda
+  - Podemos ser nós de escolher como preferimos
+- [X] Como representar que a encomenda foi aceite
+  - Mensagem 😃
 - [X] Como representar que todas as encomendas foram arrumadas -> não há o multiple
   - Gateway multipla que pergunta se já todas as lojas enviaram mensagem
+
+TODO:
+- Não usar 'enviar', 'submeter', etc nas tasks de envio
+- Pôr no relatótio as cenas do SCM do P2 esão ocultadas -> sempre que se altera o estado do fornecedor, por exemplo, ele é suspenso, é efetuado um registo do SCM
