@@ -49,19 +49,11 @@
       <bpmn:outgoing>Flow_1wiimfk</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_08xf68c" />
     </bpmn:intermediateCatchEvent>
-    <bpmn:userTask id="Activity_1b9a62k" name="Rever as rotas">
-      <bpmn:incoming>Flow_1wiimfk</bpmn:incoming>
-      <bpmn:outgoing>Flow_06oh3nl</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:exclusiveGateway id="Gateway_1ixsvdx" name="Pretende alterar as rotas?">
       <bpmn:incoming>Flow_06oh3nl</bpmn:incoming>
       <bpmn:outgoing>Flow_0pldu7x</bpmn:outgoing>
       <bpmn:outgoing>Flow_1tozhoc</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:userTask id="Activity_1vpzwiv" name="Alterar as rotas">
-      <bpmn:incoming>Flow_0pldu7x</bpmn:incoming>
-      <bpmn:outgoing>Flow_1q3o50u</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:exclusiveGateway id="Gateway_0kao56m">
       <bpmn:incoming>Flow_1q3o50u</bpmn:incoming>
       <bpmn:incoming>Flow_1tozhoc</bpmn:incoming>
@@ -101,6 +93,14 @@
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="Flow_0gbcdjt" sourceRef="Gateway_1y5i7mp" targetRef="Activity_1w2jvkm" />
     <bpmn:sequenceFlow id="Flow_082qyrb" name="Não" sourceRef="Gateway_1t7d48a" targetRef="Gateway_1y5i7mp" />
+    <bpmn:task id="Activity_1b9a62k" name="Rever as rotas">
+      <bpmn:incoming>Flow_1wiimfk</bpmn:incoming>
+      <bpmn:outgoing>Flow_06oh3nl</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_1vpzwiv" name="Alterar as rotas">
+      <bpmn:incoming>Flow_0pldu7x</bpmn:incoming>
+      <bpmn:outgoing>Flow_1q3o50u</bpmn:outgoing>
+    </bpmn:task>
   </bpmn:process>
   <bpmn:process id="Process_07e7dqu" isExecutable="false">
     <bpmn:startEvent id="Event_1fbcx4u" name="15h de cada dia">
@@ -419,18 +419,11 @@
           <dc:Bounds x="762" y="2675" width="77" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0uh1t2e_di" bpmnElement="Activity_1b9a62k">
-        <dc:Bounds x="890" y="2610" width="100" height="80" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1ixsvdx_di" bpmnElement="Gateway_1ixsvdx" isMarkerVisible="true">
         <dc:Bounds x="1045" y="2625" width="50" height="50" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1030" y="2595" width="80" height="27" />
         </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_06jnp7v_di" bpmnElement="Activity_1vpzwiv">
-        <dc:Bounds x="1190" y="2610" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0kao56m_di" bpmnElement="Gateway_0kao56m" isMarkerVisible="true">
         <dc:Bounds x="1345" y="2625" width="50" height="50" />
@@ -447,6 +440,12 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1y5i7mp_di" bpmnElement="Gateway_1y5i7mp" isMarkerVisible="true">
         <dc:Bounds x="1985" y="2625" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1fgr7dz_di" bpmnElement="Activity_1b9a62k">
+        <dc:Bounds x="890" y="2610" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_09l6gef_di" bpmnElement="Activity_1vpzwiv">
+        <dc:Bounds x="1190" y="2610" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0vbk4jc_di" bpmnElement="Flow_0vbk4jc">
         <di:waypoint x="248" y="2650" />
