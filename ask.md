@@ -53,5 +53,13 @@
 
 ### TODO:
 - Não usar 'enviar', 'submeter', etc nas tasks de envio
+- Trocar event receive task por task receive task
+
+#### P2
 - Pôr no relatótio as cenas do SCM do P2 estão ocultadas -> sempre que se altera o estado do fornecedor, por exemplo, ele é suspenso, é efetuado um registo do SCM
 - Pôr no relatótio que quando a encomenda não é entregue, automaticamente não há nada para arrumar na loja
+- Loop no alterar as rotas -> segue em frente
+
+#### P1
+- Pôr no relatório que "Sempre que for executada uma ação relativa a um fornecedor 92 ainda não conhecido na aplicação SCM, é nesse momento 93 criado um registo novo para esse fornecedor"
+- Condicional no pedido de novo documento de candidatura
