@@ -43,7 +43,7 @@
       <bpmn:incoming>Flow_0vbk4jc</bpmn:incoming>
       <bpmn:outgoing>Flow_1tkch3g</bpmn:outgoing>
     </bpmn:sendTask>
-    <bpmn:receiveTask id="Activity_1cs9qpf" name="Resposta com sugestões de encomendas">
+    <bpmn:receiveTask id="Activity_1cs9qpf" name="Sugestões de encomendas">
       <bpmn:incoming>Flow_1tkch3g</bpmn:incoming>
       <bpmn:outgoing>Flow_1oj5daw</bpmn:outgoing>
     </bpmn:receiveTask>
@@ -141,7 +141,7 @@
       <bpmn:incoming>Flow_0ghrfyr</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_0ghrfyr" sourceRef="Activity_13q6f8w" targetRef="Event_1qu9kvf" />
-    <bpmn:sendTask id="Activity_13q6f8w" name="Informar que todos os artigos da loja foram arrumados">
+    <bpmn:sendTask id="Activity_13q6f8w" name="Todos os artigos da loja foram arrumados">
       <bpmn:incoming>Flow_0z5fz0b</bpmn:incoming>
       <bpmn:outgoing>Flow_0ghrfyr</bpmn:outgoing>
     </bpmn:sendTask>
@@ -185,7 +185,7 @@
     <bpmn:sequenceFlow id="Flow_0sqhf6p" sourceRef="Activity_0yd52ed" targetRef="Gateway_1gh4xqu" />
     <bpmn:sequenceFlow id="Flow_0msahyq" sourceRef="Gateway_1k8s6pp" targetRef="Activity_0yu91xc" />
     <bpmn:sequenceFlow id="Flow_03ixrhs" sourceRef="Activity_0yu91xc" targetRef="Gateway_0uegitn" />
-    <bpmn:receiveTask id="Activity_0yu91xc" name="notificação das rotas">
+    <bpmn:receiveTask id="Activity_0yu91xc" name="Notificação das rotas">
       <bpmn:incoming>Flow_0msahyq</bpmn:incoming>
       <bpmn:outgoing>Flow_03ixrhs</bpmn:outgoing>
     </bpmn:receiveTask>
@@ -224,7 +224,7 @@
     <bpmn:endEvent id="Event_17oozfh">
       <bpmn:incoming>Flow_0lbnbei</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:sendTask id="Activity_1s5nb81" name="Informar que todos os artigos da loja foram arrumados">
+    <bpmn:sendTask id="Activity_1s5nb81" name="Todos os artigos da loja foram arrumados">
       <bpmn:incoming>Flow_02ayocy</bpmn:incoming>
       <bpmn:outgoing>Flow_0lbnbei</bpmn:outgoing>
     </bpmn:sendTask>
@@ -307,7 +307,7 @@
     <bpmn:sequenceFlow id="Flow_0uvwza5" sourceRef="Activity_1f9bsn4" targetRef="Event_1s2tvon" />
     <bpmn:sequenceFlow id="Flow_1465n5l" sourceRef="Activity_0ftphuv" targetRef="Activity_1f9bsn4" />
     <bpmn:sequenceFlow id="Flow_1qeqbzd" sourceRef="Event_03dnp1o" targetRef="Activity_0ftphuv" />
-    <bpmn:sendTask id="Activity_1f9bsn4" name="Informar que todos os artigos foram arrumados">
+    <bpmn:sendTask id="Activity_1f9bsn4" name="Todos os artigos foram arrumados">
       <bpmn:incoming>Flow_1465n5l</bpmn:incoming>
       <bpmn:outgoing>Flow_0uvwza5</bpmn:outgoing>
     </bpmn:sendTask>
@@ -362,7 +362,7 @@
     <bpmn:sequenceFlow id="Flow_14iemij" sourceRef="Event_06lk3rq" targetRef="Activity_1kgtv2i" />
     <bpmn:sequenceFlow id="Flow_1814j9n" sourceRef="Activity_1kgtv2i" targetRef="Activity_0y0va4u" />
     <bpmn:sequenceFlow id="Flow_0gkukln" sourceRef="Activity_0y0va4u" targetRef="Event_199wyhd" />
-    <bpmn:sendTask id="Activity_0y0va4u" name="Informar que todos os artigos foram arrumados">
+    <bpmn:sendTask id="Activity_0y0va4u" name="Todos os artigos foram arrumados">
       <bpmn:incoming>Flow_1814j9n</bpmn:incoming>
       <bpmn:outgoing>Flow_0gkukln</bpmn:outgoing>
     </bpmn:sendTask>
@@ -407,6 +407,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1kv4yad_di" bpmnElement="Activity_13q6f8w">
         <dc:Bounds x="2410" y="2050" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1gh4xqu_di" bpmnElement="Gateway_1gh4xqu" isMarkerVisible="true">
         <dc:Bounds x="2315" y="2065" width="50" height="50" />
@@ -435,6 +436,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0a5bsg9_di" bpmnElement="Activity_0yu91xc">
         <dc:Bounds x="1550" y="2130" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1334pse_di" bpmnElement="Event_19109uq">
         <dc:Bounds x="402" y="2192" width="36" height="36" />
@@ -556,6 +558,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_16xeskv_di" bpmnElement="Activity_1s5nb81">
         <dc:Bounds x="3285" y="912" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_02wluyc_di" bpmnElement="Gateway_1hzyakb">
         <dc:Bounds x="3180" y="927" width="50" height="50" />
@@ -624,6 +627,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_15zi4a0_di" bpmnElement="Activity_1f9bsn4">
         <dc:Bounds x="3090" y="379" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0ubxaem_di" bpmnElement="Activity_0ftphuv" isExpanded="true">
         <dc:Bounds x="2507" y="223" width="540" height="370" />
@@ -716,6 +720,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_17ttkjn_di" bpmnElement="Activity_0y0va4u">
         <dc:Bounds x="3090" y="1460" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_1akknd0" bpmnElement="Activity_1kgtv2i" isExpanded="true">
         <dc:Bounds x="2520" y="1330" width="540" height="370" />
@@ -815,6 +820,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0rxyest_di" bpmnElement="Activity_1cs9qpf">
         <dc:Bounds x="420" y="2660" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1ql7lj3_di" bpmnElement="Event_1ql7lj3">
         <dc:Bounds x="552" y="2682" width="36" height="36" />
@@ -824,6 +830,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_03dkagt_di" bpmnElement="Activity_1ufpx07">
         <dc:Bounds x="630" y="2660" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0bb9yxr_di" bpmnElement="Event_0bb9yxr">
         <dc:Bounds x="782" y="2682" width="36" height="36" />

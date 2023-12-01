@@ -91,7 +91,7 @@
     <bpmn:sequenceFlow id="Flow_0vzyg8r" sourceRef="Gateway_03o3koo" targetRef="Activity_0zgprjw" />
     <bpmn:sequenceFlow id="Flow_0d1yp5p" sourceRef="Activity_0zgprjw" targetRef="Gateway_0s6cwff" />
     <bpmn:sequenceFlow id="Flow_0hcg9ii" sourceRef="Event_1w3o3rm" targetRef="Gateway_03o3koo" />
-    <bpmn:intermediateCatchEvent id="Event_1w3o3rm" name="Receber candidatura">
+    <bpmn:intermediateCatchEvent id="Event_1w3o3rm" name="Candidatura">
       <bpmn:incoming>Flow_1lipeaj</bpmn:incoming>
       <bpmn:outgoing>Flow_0hcg9ii</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_0vyai7p" />
@@ -191,7 +191,7 @@
       <bpmn:outgoing>Flow_1s5xago</bpmn:outgoing>
       <bpmn:outgoing>Flow_1ll1m1g</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:intermediateCatchEvent id="Event_0wrpfqw" name="Recebe novo documento de candidatura">
+    <bpmn:intermediateCatchEvent id="Event_0wrpfqw" name="Novo documento de candidatura">
       <bpmn:incoming>Flow_028pnyi</bpmn:incoming>
       <bpmn:outgoing>Flow_0q0jo3v</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_0qpi22z" />
@@ -232,7 +232,7 @@
       </bpmn:dataOutputAssociation>
     </bpmn:serviceTask>
     <bpmn:sequenceFlow id="Flow_0ydt2yk" sourceRef="Activity_05fnq9y" targetRef="Activity_0m0ms5r" />
-    <bpmn:sendTask id="Activity_05fnq9y" name="Enviar convite de candidatura">
+    <bpmn:sendTask id="Activity_05fnq9y" name="Convite de candidatura">
       <bpmn:incoming>Flow_1gfw4gn</bpmn:incoming>
       <bpmn:outgoing>Flow_0ydt2yk</bpmn:outgoing>
     </bpmn:sendTask>
@@ -253,7 +253,7 @@
       <bpmn:incoming>Flow_1lfh8gn</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_18hnw7y" sourceRef="Activity_0v6gqxa" targetRef="Gateway_0il7l5m" />
-    <bpmn:sendTask id="Activity_0v6gqxa" name="Envia pedido de um novo documento de candidatura">
+    <bpmn:sendTask id="Activity_0v6gqxa" name="Pedido de um novo documento de candidatura">
       <bpmn:incoming>Flow_0mjyon4</bpmn:incoming>
       <bpmn:outgoing>Flow_18hnw7y</bpmn:outgoing>
     </bpmn:sendTask>
@@ -337,7 +337,7 @@
       <bpmndi:BPMNShape id="Event_1w3o3rm_di" bpmnElement="Event_1w3o3rm">
         <dc:Bounds x="992" y="672" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="980" y="716" width="59" height="27" />
+          <dc:Bounds x="979" y="716" width="61" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0zgprjw_di" bpmnElement="Activity_0zgprjw">
@@ -402,7 +402,7 @@
       <bpmndi:BPMNShape id="Event_0wrpfqw_di" bpmnElement="Event_0wrpfqw">
         <dc:Bounds x="1952" y="1442" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1935" y="1390" width="70" height="40" />
+          <dc:Bounds x="1928" y="1390" width="84" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1s0ok2b_di" bpmnElement="Activity_1s0ok2b">
@@ -439,6 +439,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1km3g6z_di" bpmnElement="Activity_0v6gqxa">
         <dc:Bounds x="1720" y="1330" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0l87mfg_di" bpmnElement="Gateway_1bhxu4y">
         <dc:Bounds x="2865" y="465" width="50" height="50" />

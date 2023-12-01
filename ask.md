@@ -52,7 +52,7 @@
   - Gateway multipla que pergunta se já todas as lojas enviaram mensagem
 
 ### TODO:
-- [ ] Não usar 'enviar', 'submeter', etc nas tasks de envio
+- [X] Não usar 'enviar', 'submeter', etc nas tasks de envio
 - [X] Trocar event receive task por task receive task
 
 #### P2
