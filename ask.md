@@ -53,4 +53,5 @@
 
 ### TODO:
 - Não usar 'enviar', 'submeter', etc nas tasks de envio
-- Pôr no relatótio as cenas do SCM do P2 esão ocultadas -> sempre que se altera o estado do fornecedor, por exemplo, ele é suspenso, é efetuado um registo do SCM
+- Pôr no relatótio as cenas do SCM do P2 estão ocultadas -> sempre que se altera o estado do fornecedor, por exemplo, ele é suspenso, é efetuado um registo do SCM
+- Pôr no relatótio que quando a encomenda não é entregue, automaticamente não há nada para arrumar na loja
